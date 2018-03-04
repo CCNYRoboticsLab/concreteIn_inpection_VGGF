@@ -31,7 +31,7 @@ If you change to the latest version, it should work with minor modification.
 
 ### 1.1 To enable a customized fine tuning, we  modified the Lasagne
 
-Please follow the instruction to modify you lasagne to be able to train in your our computer.
+Please follow the [instruction we provided](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/tree/master/changeForLasagne) to modify your lasagne to be able to train in your our computer.
 
 
 ### 1.2 The Computer
@@ -48,10 +48,42 @@ Our computer is a desktop with a GTX 1080 8G GPU inside and 32G memory, and it c
 
 ## 2. Data set
 
+For training, the region detection approach we proposed in paper [IROS 2017](https://ericlyang.github.io/img/IROS2017/IROS2017.pdf) are sub-cropped images with 'true' or 'false' label. We provide two kind of data for your consideration:1) the orginal image and the labeled data, where spalling images are labeled with erosed-rebar and cracking images are labeled with the crack region. 
+
+Here is an example of the orginal image and labeled image for cracking and spalling, respectively:
+
+(1) Cracking:
+
+![](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/resultImages/labeled_images/crack/045.jpg)
+![](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/resultImages/labeled_images/crack/045_GT.jpg)
+
+(2) Spalling:
+
+![](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/resultImages/labeled_images/spalling/001.jpg)
+![](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/resultImages/labeled_images/spalling/001.png)
+
+Also, here is an example of our sub-cropped images for region based training and testing purposed, which is mainly used for our papers purpose. We put this part of dataset in DropBox, and here are links for [Crack Sub-images](https://www.dropbox.com/s/m5zg2s0gxu6ygor/crackSubImageForTraining.rar?dl=0) and [Spalling Sub-images](https://www.dropbox.com/s/r3sxj33mz1gkt2a/spallSubImageForTraining.rar?dl=0). Please be noted that if you use the dataset for publication purpose, please cite the above papers.
+
+We also open access our crack/spalling original and labeled iamges without sub-croping, please email [Liang Yang](https://ericlyang.github.io/) for the dataset.
+
 
 ## 3. Training and Testing
 
+For training, we provid the simple demo which is based on VGG-16. Please download the data provided above and put into the folder [deepLearningBridgeInspection](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/tree/master/deepLearningBridgeInspection), also please generate the corresponding training and testing list as explained in [generate_training_and_testing_img_list.py](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/generate_training_and_testing_img_list.py), and we also provide an example list [train_list.txt](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/train_list.txt) and [test_list.txt](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/test_list.txt) for your consideration.
 
 
+To train the model, you also need to download the [vgg-16 pre-trainined model](https://mega.nz/#!YU1FWJrA!O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM), and modify the path in [training.py]()!! Very important!!, then:
+
+>- python training.py
 
 
+The demo can be run as:
+
+> - python demo.py
+
+
+The region detection results is as following:
+
+![](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/resultImages/resultImages/1.jpg)
+
+![](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/resultImages/resultImages/6.jpg)
