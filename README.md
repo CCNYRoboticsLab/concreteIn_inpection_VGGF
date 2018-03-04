@@ -19,6 +19,17 @@ CCNY Concrete Structure Spalling and Crack database (CSSC) that aims to assist t
 If you are interested in this project, please check the [project link](https://ericlyang.github.io/project/deepinspection/) and our current 3D semantic pixel-level reconstruction [project](https://ericlyang.github.io/project/robot-inspection-net/). Also, you can shoot [Liang Yang](https://ericlyang.github.io/) an email any time for other authors.
 
 
+#### Check our latest progress with demo:
+
+If you have interests, please visit the project [repository link](https://github.com/ccny-ros-pkg/inspectionNet_Segmentation).
+
+<a href="https://www.youtube.com/watch?v=DZJNjF2r0G0" target="_blank"><img src="http://img.youtube.com/vi/watch?v=DZJNjF2r0G0/0.jpg" 
+alt="InspectionNet" width="640" height="480" border="10" /></a>
+
+#### Check our previous progress with demo:
+<a href="https://www.youtube.com/watch?v=4_001iFYgJo" target="_blank"><img src="http://img.youtube.com/vi/watch?v=4_001iFYgJo/0.jpg" 
+alt="InspectionNet" width="640" height="480" border="10" /></a>
+
 ## 1. Prerequisites
 
 The inspection network is trained based on [theano](http://deeplearning.net/software/theano/) and using [Lasagne Api](https://github.com/Lasagne/Lasagne). We performed training and evaluation on version:
@@ -86,4 +97,4 @@ The region detection results is as following:
 
 ![](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/resultImages/resultImages/1.jpg)
 
-![](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/resultImages/resultImages/6.jpg)
+![](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/resultImages/resultImages/4.jpg)

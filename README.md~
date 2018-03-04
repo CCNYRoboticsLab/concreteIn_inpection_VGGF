@@ -19,6 +19,14 @@ CCNY Concrete Structure Spalling and Crack database (CSSC) that aims to assist t
 If you are interested in this project, please check the [project link](https://ericlyang.github.io/project/deepinspection/) and our current 3D semantic pixel-level reconstruction [project](https://ericlyang.github.io/project/robot-inspection-net/). Also, you can shoot [Liang Yang](https://ericlyang.github.io/) an email any time for other authors.
 
 
+#### Check our latest progress with demo:
+<a href="https://www.youtube.com/watch?v=DZJNjF2r0G0" target="_blank"><img src="http://img.youtube.com/vi/watch?v=DZJNjF2r0G0/0.jpg" 
+alt="InspectionNet" width="640" height="480" border="10" /></a>
+
+#### Check our previous progress with demo:
+<a href="https://www.youtube.com/watch?v=4_001iFYgJo" target="_blank"><img src="http://img.youtube.com/vi/watch?v=4_001iFYgJo/0.jpg" 
+alt="InspectionNet" width="640" height="480" border="10" /></a>
+
 ## 1. Prerequisites
 
 The inspection network is trained based on [theano](http://deeplearning.net/software/theano/) and using [Lasagne Api](https://github.com/Lasagne/Lasagne). We performed training and evaluation on version:
@@ -72,7 +80,7 @@ We also open access our crack/spalling original and labeled iamges without sub-c
 For training, we provid the simple demo which is based on VGG-16. Please download the data provided above and put into the folder [deepLearningBridgeInspection](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/tree/master/deepLearningBridgeInspection), also please generate the corresponding training and testing list as explained in [generate_training_and_testing_img_list.py](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/generate_training_and_testing_img_list.py), and we also provide an example list [train_list.txt](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/train_list.txt) and [test_list.txt](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/test_list.txt) for your consideration.
 
 
-To train the model, you also need to download the [vgg-16 pre-trainined model](https://mega.nz/#!YU1FWJrA!O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM), and modify the path in [training.py](), then:
+To train the model, you also need to download the [vgg-16 pre-trainined model](https://mega.nz/#!YU1FWJrA!O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM), and modify the path in [training.py]()!! Very important!!, then:
 
 >- python training.py
 
@@ -86,4 +94,4 @@ The region detection results is as following:
 
 ![](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/resultImages/resultImages/1.jpg)
 
-![](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/resultImages/resultImages/6.jpg)
+![](https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/resultImages/resultImages/4.jpg)
