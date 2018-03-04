@@ -23,19 +23,13 @@ If you are interested in this project, please check the [project link](https://e
 
 If you have interests, please visit the project [repository link](https://github.com/ccny-ros-pkg/inspectionNet_Segmentation).
 
-<!--- https://tinyurl.com/3DInspetrainAndFieldResult.pngctionRobot -->
-
-{{< youtube DZJNjF2r0G0 >}}
-
-<br />
+<a href="https://www.youtube.com/watch?v=DZJNjF2r0G0" target="_blank"><img src="https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/resultImages/resultImages/0054.png" 
+alt="InspectionNet" width="640" height="480" border="10" /></a>
 
 #### Check our previous progress with demo:
+<a href="https://www.youtube.com/watch?v=4_001iFYgJo" target="_blank"><img src="https://github.com/ccny-ros-pkg/concreteIn_inpection_VGGF/blob/master/resultImages/resultImages/2.jpg" 
+alt="InspectionNet" width="640" height="480" border="10" /></a>
 
-<!--- https://www.youtube.com/watch?v=4_001iFYgJo -->
-
-{{< youtube DZJNjF2r0G0 >}}
-
-<br />
 ## 1. Prerequisites
 
 The inspection network is trained based on [theano](http://deeplearning.net/software/theano/) and using [Lasagne Api](https://github.com/Lasagne/Lasagne). We performed training and evaluation on version:
