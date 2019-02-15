@@ -1,3 +1,7 @@
+#updated a pytorch version, please check here
+Requires pytorch 0.3 or 0.4
+https://github.com/ccny-ros-pkg/pytorch_Concrete_Inspection.git
+
 ## Concrete Inpection Dataset and Baseline @ [CCNY Robotics Lab](https://ccny-ros-pkg.github.io/)
 
 Authors: [Liang Yang](https://ericlyang.github.io/),  [Bing LI](https://robotlee2002.github.io/), [Wei LI](http://ccvcl.org/~wei/), Zhaoming LIU, Guoyong YANG, [Jizhong XIAO](http://www-ee.ccny.cuny.edu/www/web/jxiao/jxiao.html)
