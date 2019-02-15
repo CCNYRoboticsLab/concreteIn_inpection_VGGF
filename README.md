@@ -12,7 +12,7 @@ CCNY Concrete Structure Spalling and Crack database (CSSC) that aims to assist t
 
 ### If you find this could be helpful for your project, please cite the following related papers:
 
-[IROS 2017] Liang YANG, Bing LI, Wei LI, Zhaoming LIU, Guoyong YANG,Jizhong XIAO (2017). Deep Concrete Inspection Using Unmanned Aerial Vehicle Towards CSSC Database. 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), One Page Abstract, [PDF](https://ericlyang.github.io/img/IROS2017/IROS2017.pdf).
+[IROS 2017] Liang YANG, Bing LI, Wei LI, Zhaoming LIU, Guoyong YANG,Jizhong XIAO (2017). Deep Concrete Inspection Using Unmanned Aerial Vehicle Towards CSSC Database. 2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), [PDF](https://ericlyang.github.io/img/IROS2017/IROS2017.pdf).
 
 
 [ROBIO 2017] Liang YANG, Bing LI, Wei LI, Zhaoming LIU, Guoyong YANG,Jizhong XIAO (2017). A Robotic System Towards Concrete Structure Spalling And Crack Database. 2017 IEEE Int. Conf. on Robotics and Biomimetics (ROBIO 2017), [Project](https://ericlyang.github.io/project/deepinspection/).
